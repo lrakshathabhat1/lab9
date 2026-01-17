@@ -1,0 +1,14 @@
+git config --global --replace-all user.name KshamaV24
+git config --global --replace-all user.email kshamabv24@gmail.com
+
+git init
+
+git add file1
+git commit -m "file saved"
+
+git add file1
+git commit -m "file saved"
+
+git show 32bf
+
+git log -n 1 --pretty=format:"%h - %an, %ar : %s" 32bf
